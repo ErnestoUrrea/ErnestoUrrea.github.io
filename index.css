@@ -1,0 +1,33 @@
+body{
+    background: rgb(58, 58, 58);
+    color: aliceblue;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(20, 20, 20);
+    padding: 10px 20px 10px 20px;
+}
+footer{
+    background: rgb(20, 20, 20);
+    padding: 10px 20px 10px 20px;
+}
+a{
+    color: aqua;
+}
+section{
+    padding: 0px 20px 0px 20px;
+}
+#name{
+    background: rgb(20, 20, 20);
+    background-image: url("media/fondo.jpeg");
+    background-size: cover;
+    margin: 0px;
+    padding: 100px 10% 100px 10%;
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
