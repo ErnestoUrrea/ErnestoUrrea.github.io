@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+body{
+    background: rgb(58, 58, 58);
+    color: rgb(20, 20, 20);
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: aliceblue;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+}
+footer{
+    background: rgb(20, 20, 20);
+    padding: 10px 20px 10px 20px;
+}
+a{
+    color: aqua;
+}
+section{
+    padding: 0px 20px 0px 20px;
+}
+#name{
+    background: aliceblue;
+    /*background-image: url("media/fondo.jpeg");*/
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#name_pfp{
+    background-color: red;
+    width: 100%;
+    display: flex
+    ;
+}
+.navigation{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16;
+}
+.button-nav{
+    width: 90px; 
+    text-align: center;
+}
+.main-nav{
+    width: 100%;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    height: 400px;
+    background-color: #00A4BD;
+    align-items: center;
+}
+  
+.flex-container > div {
+    background-color: #EAF0F6;
+    height: fit-content;
+    margin: 0px;
+    text-align: center;
+    /*flex: 1 1 200px;*/
+}
+#name_text{
+    background-color: red;
+    text-align: left;
+    font-size: 10px;
+    flex: 2 1 0;
+    padding-left: 10px;
+}
+#photo{
+    flex: 1 1 0;
+    padding: 10px;
+}
+
+.circle_photo{
+    border-radius: 50%;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+}
+  
+  
