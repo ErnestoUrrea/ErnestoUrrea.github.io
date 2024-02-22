@@ -210,6 +210,26 @@ header{
     padding-left: 5%;
 }
 
+#main-education{
+    /*background-color: olivedrab;*/
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.education-text{
+    font-size: 1.6vw;
+}
+
+.education-text > ul{
+    font-size: 1.8vw;
+    padding-left: 5%;
+}
+
+
+/*TODO: Join Experience, Coursework, Skills and Education in one class*/
 @media screen and (min-width:800px){
     .presentation-text{
         /*background-color: blueviolet;*/
@@ -238,6 +258,14 @@ header{
         font-size: 13px;
     }
     .skills-text > ul{
+        /*background-color: blueviolet;*/
+        font-size: 14px;
+    }
+    .education-text{
+        /*background-color: blueviolet;*/
+        font-size: 13px;
+    }
+    .education-text > ul{
         /*background-color: blueviolet;*/
         font-size: 14px;
     }
