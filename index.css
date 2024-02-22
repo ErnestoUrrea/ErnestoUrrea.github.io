@@ -26,6 +26,7 @@ body{
 .main{
     position: relative;
     min-height: 91vh;
+    /*margin-top: 54px;*/
 }
 
 img{
@@ -39,6 +40,14 @@ hr{
     color: rgb(203, 203, 203);
     margin: 0;
     padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .navigation{
@@ -58,7 +67,13 @@ hr{
     width: 100%;
 }
 
+/*
 #self-navigation > a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}*/
+
+.button-nav > a{
     text-decoration: none;
     color: rgb(20, 20, 20);
 }
@@ -141,11 +156,89 @@ hr{
     border-radius: 3px;
 }
 
+#main-experience{
+    /*background-color: olivedrab;*/
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.experience-text{
+    font-size: 1.6vw;
+}
+
+.experience-text > ul{
+    font-size: 1.8vw;
+    padding-left: 5%;
+}
+
+#main-coursework{
+    /*background-color: olivedrab;*/
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.coursework-text{
+    font-size: 1.6vw;
+}
+
+.coursework-text > ul{
+    font-size: 1.8vw;
+    padding-left: 5%;
+}
+
+#main-skills{
+    /*background-color: olivedrab;*/
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.skills-text{
+    font-size: 1.6vw;
+}
+
+.skills-text > ul{
+    font-size: 1.8vw;
+    padding-left: 5%;
+}
+
 @media screen and (min-width:800px){
     .presentation-text{
         /*background-color: blueviolet;*/
         flex: 1 1 0;
         font-size: 13px;
         margin-right: 4%;
+    }
+    .experience-text{
+        /*background-color: blueviolet;*/
+        font-size: 13px;
+    }
+    .experience-text > ul{
+        /*background-color: blueviolet;*/
+        font-size: 14px;
+    }
+    .coursework-text{
+        /*background-color: blueviolet;*/
+        font-size: 13px;
+    }
+    .coursework-text > ul{
+        /*background-color: blueviolet;*/
+        font-size: 14px;
+    }
+    .skills-text{
+        /*background-color: blueviolet;*/
+        font-size: 13px;
+    }
+    .skills-text > ul{
+        /*background-color: blueviolet;*/
+        font-size: 14px;
     }
 }
