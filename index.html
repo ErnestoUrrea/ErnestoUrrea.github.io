@@ -29,7 +29,7 @@
                     <h1>Ernesto Enrique Urrea López</h1>
                     <h4>About Me</h4>
                     <p>
-                        I'm a sixth-semester <!--, passionate and creative -->
+                        I'm a sixth-semester
                         Electronics Engineering student at Tecnológico 
                         de Monterrey, with over three years of academic 
                         experience in electronics and embedded software 
@@ -57,29 +57,34 @@
                 <div class="experience-text">
                     <h2>VantTec: Self-Driving Vehicle, Electronics and Embedded Systems Developer (Mar 2023 - Present)</h2>
                     <ul>
-                        <li>Redesigned the electronic system responsible for controlling the car’s panel and other vehicle indicators. Designed
-                            an electrical protection and fault detection system to comply with requirements established by the partner company ZF.</li>
+                        <li>Redesigned the electronic system responsible for controlling the car’s panel and other vehicle indicators.</li>
+                        <li>Designed and implemented an electrical protection and fault detection system to detect and report overvoltage,
+                            undervoltage, overcurrent and short circuits, to comply with requirements established by the partner company ZF.</li>
+                        <li>Proposed and implemented impedance matching corrections to the physical CAN layer to increase maximum
+                            transmission speed.</li>
                         <li>Collaborated on a team in the redesign of the vehicle’s electronic system to implement a different CAN topology, using
                             GitHub version control, and the creation of the documentation for the system.</li>
-                        <li>Developed an STM32 library for I2C communication with an LTC4151 power monitor, and a ROS2 node that publishes
-                            the data received by the computer via CAN bus of the voltage readings of the battery package.</li>
+                        <li>Developed an STM32 library for I2C communication with an LTC4151 power monitor, and a ROS2 node that publishes to
+                            a topic the data received by the computer via CAN bus of the voltage readings of the battery package.</li>
+                        <li>Developed an audio playback system to read a topic and play the corresponding audio on a BT speaker using ROS2.</li>
                     </ul>
-                    <h2>VantTec: Unmanned Surface Vehicle, Leader of Electronic and Embedded Systems (Aug 2022 - Present)</h2>
+                    <h2>VantTec: Unmanned Surface Vehicle, Electronic and Embedded Systems Team Leader (Aug 2022 - Present)</h2>
                     <ul>
-                        <li>Líder del equipo de 6 miembros encargado del desarrollo de sistemas embebidos y electrónica de un vehículo de superficie no tripulado (USV)</li>
-                        <li>Diseño del sistema de distribución de energía y de control para diferentes componentes del vehículo utilizados para resolver retos de acuerdo con requerimientos establecidos por los organizadores del concurso RoboBoat.</li>
+                        <li>Designed the control system for the actuators of a ball shooting system for an Unmanned Surface Vehicle.</li>
+                        <li>Conducted tests to determine the power and energy consumption of the motors and actuators present in the system.</li>
+                        <li>Planned a power supply and conversion system that meets the power and energy requirements of the system.</li>
                     </ul>
-                    <h2>Electraton, Hardware and Software Developer  (Sep 2023 - Present)</h2>
+                    <h2>Electraton, Hardware and Software Developer (Sep 2023 - Present)</h2>
                     <ul>
-                        <li>Design, implementation and development of the graphical interface of a real-time visualization system for the pilot of the data obtained through telemetry during the race.</li>
+                        <li>Designed and implemented the graphical interface of a real-time visualization system for the pilot of the data obtained through telemetry during the race.</li>
                     </ul>
                     <h2>Magnetic Levitator (Fall 2023)</h2>
                     <ul>
-                        <li>Planning and early construction of a magnetic levitator in collaboration with ITESM professors and researchers.</li>
-                        <li>Modificated the original analog control circuit to implement an ATmega328P-based digital controller as well as analog sensor
-                            reading.</li>
-                        <li>Designed and implementated the sensor reading software and the discrete PID controller for the
-                            electromagnet, applying unit and integration testing to ensure the correct functioning of the system.</li>
+                        <li>Planned and started construction of a magnetic levitator in collaboration with ITESM professors and researchers.</li>
+                        <li>Modified the original circuit to implement an ATmega328P based digital controller as well as analog sensor reading.</li>
+                        <li>Designed and implemented the sensor reading software and the discrete PID controller for the electromagnet.</li>
+                        <li>Implemented the isolation and commutation circuit to control the electromagnet with a digital low power input.</li>
+                        <li>Applied unit and integration testing to ensure the correct functioning of the system.</li>
                     </ul>
                     <h2>Workshop on Batteries and Electric Vehicles by Keysight (Oct 2023)</h2>
                     <ul>
@@ -90,14 +95,14 @@
                     <h2>CBTIS 230 Robotics Team, Hardware and Software Developer (Feb 2019 - Jul 2021)</h2>
                     <ul>
                         <li>Led the 6-member team in charge of the design and initial development of a prototype guidance system for rehabilitation 
-                            centers based on light signals.
-                            Desiged and developed the prototype's hardware and software for the controller, path selection algorithm and the Windows application.</li>
+                            centers based on light signals.</li>
+                        <li>Desiged and developed the prototype's hardware and software for the controller, path selection algorithm and the Windows application.</li>
                     </ul>
                 </div>
             </section>
 
             <section id="main-coursework">
-                <h1>Relevant Coursework Projects</h1>
+                <h1>Relevant Coursework</h1>
                 <div class="coursework-text">
                     <h2>Vehicle Lighting RGB LED calibration system in collaboration with Plastic Omnium (Fall 2023)</h2>
                     <ul>
@@ -110,7 +115,7 @@
                     </ul>
                     <h2>Self-Balancing Robot (Fall 2023)</h2>
                     <ul>
-                        <li>Designed and developed a self-balancing robot using telemetry and a PID controller to maintain stability on two wheels.</li>
+                        <li>Developed a self-balancing robot using telemetry and a PID controller to maintain stability on two wheels.</li>
                         <li>Designed and tested, as a 3-member team, the hardware, as well as the control system in C++ for reading an IMU and
                             controlling stepper motors. Implemented the system on a ESP32-based development board.</li>
                     </ul>
@@ -131,7 +136,21 @@
                     <ul>
                         <li>Designed, as a 3-member team, a BJT-based multi-stage audio amplifier, LTspice simulation and PCB design in KiCad.</li>
                         <li>Designed a symmetrical linear power supply, with overcurrent protection and an output filter stage to comply with
-                            established regulations. Simulation using LTspice and PCB design in KiCad.</li>
+                            established regulations.</li>
+                        <li>Carried out simulations of the circuit using LTspice.</li>
+                        <li>Designed a PCB using KiCad and assembled it by hand.</li>
+                    </ul>
+                    <h2>Semiautomatic Garage Door Model (Mar 2020)</h2>
+                    <ul>
+                        <li>Designed and built a semiautomatic garage door model using relays and ladder diagrams.</li>
+                    </ul>
+                    <h2>Model for the Electrical Installation of a House (May 2019)</h2>
+                    <ul>
+                        <li>Designed and constructed an electrical installation model for a house.</li>
+                    </ul>
+                    <h2>Linear Regulation Variable Power Supply (Mar 2019)</h2>
+                    <ul>
+                        <li>Designed and constructed a linear regulation power supply with a variable output.</li>
                     </ul>
                 </div>
             </section>
@@ -140,12 +159,12 @@
                 <h1>Technical Skills</h1>
                 <div class="skills-text">
                     <ul>
-                        <li><strong>Programming Languages:</strong> C, C++, Python, MATLAB, Java, HTML, CSS.</li>
+                        <li><strong>Programming Languages:</strong> C, C++, Assembly, Python, MATLAB, Java, HTML, CSS.</li>
                         <li><strong>Hardware Description Languages:</strong> VHDL.</li>
                         <li><strong>Microcontroller & development board programming:</strong> STM32, PIC16/PIC18, AVR, Arduino, Nucleo, Teensy, ESP32.</li>
                         <li><strong>IDE & Code Editors:</strong> Visual Studio, Visual Studio Code, PyCharm, STM32CubeIDE, Arduino IDE, MPLAB, Quartus.</li>
                         <li><strong>Tools:</strong> KiCad, EasyEDA, NI Multisim, LTspice, Proteus, SolidWorks, Ubuntu, ROS/ROS2, Simulink, Minitab.</li>
-                        <li><strong>Laboratory Instrumentation:</strong> multimeter, oscilloscope, function generator.</li>
+                        <li><strong>Laboratory Instrumentation:</strong> multimeter, oscilloscope, function generator, power supply.</li>
                     </ul>
                 </div>
             </section>
@@ -156,9 +175,13 @@
                     <h2>Instituto Tecnológico y de Estudios Superiores de Monterrey, Campus Monterrey (Aug 2021 – Expected: Jul 2025)</h2>
                     <h3>&emsp;&emsp;Monterrey, Nuevo León, México</h3>
                     <h3>&emsp;&emsp;B.S. in Electronics Engineering, GPA: 3.91</h3>
+                    <h4>&emsp;&emsp;&emsp;Recognition "Best Averages from the School of Engineering and Sciences, Monterrey Campus, 2021-2022"</h4>
+                    
                     <h2>Centro de Bachillerato Tecnológico, Industrial y de Servicios Número 230 (Aug 2018 – Jul 2021)</h2>
                     <h3>&emsp;&emsp;La Paz, Baja California Sur, México</h3>
                     <h3>&emsp;&emsp;Technical Career in Electronics, GPA: 4.00</h3>
+                    <h4>&emsp;&emsp;&emsp;Highest GPA of generation (2018 – 2021)</h4>
+                    <h4>&emsp;&emsp;&emsp;Participation in national stage of the Mexican Mathematics Olympiad (OMM), 2018, 2019, 2020</h4>
                 </div>
             </section>
                     
